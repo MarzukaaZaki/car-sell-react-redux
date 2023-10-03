@@ -1,0 +1,225 @@
+[
+    {
+        "_id": "a7f3c9b8f2d64f1c9f7b4e9c",
+        "car_name": "Honda Civic Hatchback",
+        "model_year": 2022,
+        "transmission_type": "Manual",
+        "fuel_type": "Gasoline",
+        "seating_capacity": 5,
+        "lease_price": "$249.month",
+        "fuel_efficiency": "7.8km/1-litre",
+        "car_image": "[4]"
+    },
+    {
+        "_id": "b6e4d5c3e1f74a2b8d8c5f8b",
+        "car_name": "Toyota Corolla",
+        "model_year": 2022,
+        "transmission_type": "Manual",
+        "fuel_type": "Gasoline",
+        "seating_capacity": 5,
+        "lease_price": "$199.month",
+        "fuel_efficiency": "8.1km/1-litre",
+        "car_image": "[5]"
+    },
+    {
+        "_id": "c5d3e4b2d0f63a1a7c7b4e7a",
+        "car_name": "Kia Forte",
+        "model_year": 2021,
+        "transmission_type": "Manual",
+        "fuel_type": "Gasoline",
+        "seating_capacity": 5,
+        "lease_price": "$179.month",
+        "fuel_efficiency": "7.4km/1-litre",
+        "car_image": "[6]"
+    },
+    {
+        "_id": "d4c2d3a1c0e52b0a6b6a3b6a",
+        "car_name": "Subaru Impreza",
+        "model_year": 2021,
+        "transmission_type": "Manual",
+        "fuel_type": "Gasoline",
+        "seating_capacity": 5,
+        "lease_price": "$199.month",
+        "fuel_efficiency": "7.5km/1-litre",
+        "car_image": "[7]"
+    },
+    {
+        "_id": "e3b1c2a0b0d41a0a5a5a2a5a",
+        "car_name": "Volkswagen Golf",
+        "model_year": 2021,
+        "transmission_type": "Manual",
+        "fuel_type": "Gasoline",
+        "seating_capacity": 5,
+        "lease_price": "$229.month",
+        "fuel_efficiency": "7.2km/1-litre",
+        "car_image": "[8]"
+    },
+    {
+        "_id": "f2a0b1a0a0c30a0a4a4a1a4a",
+        "car_name": "Hyundai Elantra",
+        "model_year": 2021,
+        "transmission_type": "Manual",
+        "fuel_type": "Gasoline",
+        "seating_capacity": 5,
+        "lease_price": "$189.month",
+        "fuel_efficiency": "7.6km/1-litre",
+        "car_image": "[9]"
+    },
+    {
+        "_id": "g1a0b0a0a0b20a0a3a3a0a3a",
+        "car_name": "Nissan Sentra",
+        "model_year": 2021,
+        "transmission_type": "Manual",
+        "fuel_type": "Gasoline",
+        "seating_capacity": 5,
+        "lease_price": "$199.month",
+        "fuel_efficiency": "7.9km/1-litre",
+        "car_image": "[10]"
+    },
+    {
+        "_id": "h0a0b0a0a0a10a0a2a2a0a2a",
+        "car_name": "Chevrolet Cruze",
+        "model_year": 2019,
+        "transmission_type": "Manual",
+        "fuel_type": "Gasoline",
+        "seating_capacity": 5,
+        "lease_price": "$169.month",
+        "fuel_efficiency": "7.3km/1-litre",
+        "car_image": "[11]"
+    },
+    {
+        "_id": "i0a0b0a0a0a00a0a1a1a0a1a",
+        "car_name": "Ford Focus",
+        "model_year": 2018,
+        "transmission_type": "Manual",
+        "fuel_type": "Gasoline",
+        "seating_capacity": 5,
+        "lease_price": "$149.month",
+        "fuel_efficiency": "7.1km/1-litre",
+        "car_image": "[12]"
+    },
+    {
+        "_id": "j0a0b0a0a0a00a0a0a0a0a0a",
+        "car_name": "Mitsubishi Lancer",
+        "model_year": 2017,
+        "transmission_type": "Manual",
+        "fuel_type": "Gasoline",
+        "seating_capacity": 5,
+        "lease_price": "$139.month",
+        "fuel_efficiency": "6.9km/1-litre",
+        "car_image": "[13]"
+    },
+    
+        {
+          "_id": "a2b4c6d8e0f1g3h5i7j9k0l1",
+          "car_name": "Toyota",
+          "model_year": 2021,
+          "transmission_type": "Automatic",
+          "fuel_type": "Hybrid",
+          "seating_capacity": 5,
+          "lease_price": "$800.month",
+          "fuel_efficiency": "5.5km/1-litre",
+          "car_image": "[13]"
+        },
+        {
+          "_id": "b3c5d7e9f0g2h4i6j8k1l0m2",
+          "car_name": "Honda",
+          "model_year": 2019,
+          "transmission_type": "Manual",
+          "fuel_type": "Gasoline",
+          "seating_capacity": 4,
+          "lease_price": "$600.month",
+          "fuel_efficiency": "6.2km/1-litre",
+          "car_image": "[14]"
+        },
+        {
+          "_id": "c4d6e8f1g3h5i7j9k0l2m1n3",
+          "car_name": "Nissan",
+          "model_year": 2020,
+          "transmission_type": "Automatic",
+          "fuel_type": "Diesel",
+          "seating_capacity": 5,
+          "lease_price": "$700.month",
+          "fuel_efficiency": "7.1km/1-litre",
+          "car_image": "[15]"
+        },
+        {
+          "_id": "d5e7f9g0h2i4j6k8l1m3n2o4",
+          "car_name": "Ford",
+          "model_year": 2018,
+          "transmission_type": "Manual",
+          "fuel_type": "Gasoline",
+          "seating_capacity": 6,
+          "lease_price": "$900.month",
+          "fuel_efficiency": "5.9km/1-litre",
+          "car_image": "[16]"
+        },
+        {
+          "_id": "e6f8g1h3i5j7k9l0m2n4o3p5",
+          "car_name": "Chevrolet",
+          "model_year": 2021,
+          "transmission_type": "Automatic",
+          "fuel_type": "Electric",
+          "seating_capacity": 4,
+          "lease_price": "$1000.month",
+          "fuel_efficiency": "8.5km/1-litre",
+          "car_image": "[17]"
+        },
+        {
+          "_id": "f7g9h0i2j4k6l8m1n3o5p4q6",
+          "car_name": "Hyundai",
+          "model_year": 2019,
+          "transmission_type": "Automatic",
+          "fuel_type": "Hybrid",
+          "seating_capacity": 5,
+          "lease_price": "$750.month",
+          "fuel_efficiency": "6.4km/1-litre",
+          "car_image": "[18]"
+        },
+        {
+          "_id": "g8h1i3j5k7l9m0n2o4p6q5r7",
+          "car_name": "Kia",
+          "model_year": 2020,
+          "transmission_type": "Manual",
+          "fuel_type": "Gasoline",
+          "seating_capacity": 4,
+          "lease_price": "$650.month",
+          "fuel_efficiency": "6.8km/1-litre",
+          "car_image": "[19]"
+        },
+        {
+          "_id": "h9i0j2k4l6m8n1o3p5q7r6s8",
+          "car_name": "BMW",
+          "model_year": 2021,
+          "transmission_type": "Automatic",
+          "fuel_type": "Diesel",
+          "seating_capacity": 5,
+          "lease_price": "$1200.month",
+          "fuel_efficiency": "7.3km/1-litre",
+          "car_image": "[20]"
+        },
+        {
+          "_id": "i0j1k3l5m7n9o2p4q6r8s7t9",
+          "car_name": "Mercedes",
+          "model_year": 2020,
+          "transmission_type": "Automatic",
+          "fuel_type": "Electric",
+          "seating_capacity": 4,
+          "lease_price": "$1300.month",
+          "fuel_efficiency": "8.9km/1-litre",
+          "car_image": "[21]"
+        },
+        {
+          "_id": "j1k2l4m6n8o0p3q5r7s9t8u0",
+          "car_name": "Audi",
+          "model_year": 2019,
+          "transmission_type": "Manual",
+          "fuel_type": "Gasoline",
+          "seating_capacity": 5,
+          "lease_price": "$1100.month",
+          "fuel_efficiency": "7.5km/1-litre",
+          "car_image": "[22]"
+        }
+      
+      
+]
