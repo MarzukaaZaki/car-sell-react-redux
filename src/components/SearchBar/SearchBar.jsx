@@ -36,7 +36,7 @@ const SearchBar = ({ carData }) => {
       </div>
 
       <ul>
-        <div className='mt-3 grid grid-cols-2'>
+        <div className='grid grid-cols-2'>
           {searchResults.map((car) => (
             
             <CarCard key={car._id} car={car} ></CarCard>
