@@ -4,11 +4,11 @@ import Cars from "../pages/Cars/Cars";
 
 const router = createBrowserRouter([
     {
-        path: '/',
-        element: <Root />,
+        path:'/page/:pagenumber',
+        element: <Root/>,
         children:[
             {
-                path:'/',
+                path:'/page/:pagenumber',
                 element: <Cars/>
             }
         ]
