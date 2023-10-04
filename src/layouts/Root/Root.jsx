@@ -1,10 +1,10 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom';
 
 const Root = () => {
     return (
-        <div>
-            Search Bar 
-            Car Info
+        <div className='bg-[#edf0f6]'>
+            <Outlet/>
         </div>
     );
 };
