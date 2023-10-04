@@ -8,9 +8,9 @@ const CarCard = ({ car }) => {
     const { car_name, model_year, transmission_type, fuel_type, seating_capacity, lease_price, fuel_efficiency, car_image } = car;
     return (
         <div
-            class="mx-5 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]">
+            class="mx-5 block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] mb-5">
             <div
-                class="relative overflow-hidden bg-cover bg-no-repeat"
+                class="relative overflow-hidden bg-cover bg-no-repeat p-3"
                 data-te-ripple-init
                 data-te-ripple-color="light">
                 <img
@@ -25,7 +25,7 @@ const CarCard = ({ car }) => {
             <div class="p-6">
                 <div className='flex justify-between mb-5'>
                     <h5
-                        class="mb-2 text-xl font-medium leading-tight ">
+                        class="mb-2 text-xl font-medium leading-tight">
                         {car_name}
                     </h5>
                     <h6 className='px-4 py-2 text-xs border-dashed border-2 border-orange-500  rounded-full'>{model_year}</h6>
@@ -58,7 +58,7 @@ const CarCard = ({ car }) => {
                         </button>
                         <button
                             type="button"
-                            class="inline-block rounded bg-blue-400 btn btn-sm text-white px-6 pb-2 pt-2.5 text-sm font-medium leading-normal shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]"
+                            class="inline-block rounded bg-blue-400 text-white px-6 pb-2 pt-2.5 text-sm rounded-lg"
                             data-te-ripple-init
                             data-te-ripple-color="light">
                             Rent Now
