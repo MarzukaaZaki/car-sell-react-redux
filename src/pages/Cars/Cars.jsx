@@ -2,13 +2,14 @@ import React, { useEffect, useState } from 'react';
 import CarInfo from '../../components/CarInfo/CarInfo';
 import Pagination from '../../components/Pagination/Pagination';
 import { useParams } from 'react-router-dom';
+import SearchBar from '../../components/SearchBar/SearchBar';
 
 const Cars = () => {
     const [carData, setCarData] = useState([]);
 
     // Get the dynamic page number from route url
     const { page } = useParams();
-    
+
     useEffect(()=>{
         fetch('/data/cars.json')
         .then( res => res.json())
@@ -32,6 +33,7 @@ const Cars = () => {
     const noOfPages = 10;
     return (
         <div>
+            <SearchBar carData={carData}/>
             <CarInfo carData={currentRecords} />
             <Pagination noOfPages={noOfPages} currentPage={currentPage} setCurrentPage={setCurrentPage}></Pagination>
         </div>
